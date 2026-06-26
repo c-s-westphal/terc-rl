@@ -5,7 +5,7 @@ This repository contains the code used to generate the results presented in the 
 
 > **TERC: A Transfer Entropy Redundancy Criterion for State Variable Selection in Reinforcement Learning**
 > *[Charles Westphal](https://c-s-westphal.github.io/), et al.*
-> Transactions on Machine Learning Research (TMLR), under review.
+> Transactions on Machine Learning Research (TMLR), 2025.
 
 ## Table of Contents
 
