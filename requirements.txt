@@ -1,0 +1,10 @@
+numpy>=1.23
+torch>=1.13
+gymnasium>=0.28
+matplotlib>=3.5
+scikit-learn>=1.1
+pandas>=1.4
+
+# Optional: required only for the LunarLander environment.
+# Needs SWIG and a C/C++ toolchain. Install separately with:
+#   pip install gymnasium[box2d]

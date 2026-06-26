@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "terc-rl"
+version = "0.1.0"
+description = "Transfer Entropy Redundancy Criterion (TERC) for state variable selection in reinforcement learning"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [{ name = "Charles Westphal" }]
+keywords = ["reinforcement-learning", "feature-selection", "transfer-entropy", "information-theory"]
+dependencies = [
+    "numpy>=1.23",
+    "torch>=1.13",
+    "gymnasium>=0.28",
+    "matplotlib>=3.5",
+    "scikit-learn>=1.1",
+    "pandas>=1.4",
+]
+
+# LunarLander needs Box2D, which requires SWIG + a C/C++ toolchain to build.
+# Install with: pip install -e ".[lunarlander]"  (or: pip install gymnasium[box2d])
+[project.optional-dependencies]
+lunarlander = ["gymnasium[box2d]>=0.28"]
+
+[project.scripts]
+terc = "main:main"
+
+[tool.setuptools]
+packages = ["terc", "terc.agents", "terc.envs", "terc.pipelines"]
+py-modules = ["main"]
