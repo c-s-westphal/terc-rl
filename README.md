@@ -5,7 +5,7 @@ This repository contains the code used to generate the results presented in the 
 
 > **TERC: A Transfer Entropy Redundancy Criterion for State Variable Selection in Reinforcement Learning**
 > *[Charles Westphal](https://c-s-westphal.github.io/), et al.*
-> Transactions on Machine Learning Research (TMLR), 2025.
+> Transactions on Machine Learning Research (TMLR), 2026.
 
 ## Table of Contents
 
@@ -136,10 +136,10 @@ PYTHONPATH=. python tests/test_smoke.py     # or: pytest tests/
 If you use this code in your research, please cite our paper:
 
 ```bibtex
-@article{westphal2025terc,
+@article{westphal2026terc,
   title   = {{TERC: A Transfer Entropy Redundancy Criterion for State Variable Selection in Reinforcement Learning}},
   author  = {Westphal, Charles and Hailes, Stephen and Musolesi, Mirco},
   journal = {Transactions on Machine Learning Research (TMLR)},
-  year    = {2025}
+  year    = {2026}
 }
 ```
